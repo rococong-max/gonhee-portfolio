@@ -1,0 +1,182 @@
+#wrap {background-color: #222;}
+#wrap .portfolio_swiper {height: 100vh;}
+#wrap .portfolio_swiper .swiper-wrapper {}
+#wrap .portfolio_swiper .swiper-wrapper .swiper-slide {}
+#wrap .portfolio_swiper .swiper-wrapper .swiper-slide * {color: #f5f5f5;}
+
+/* -------------------------------------------------------------------- 1. 인트로 */
+#wrap .portfolio_swiper .swiper-wrapper .intro {background-color: brown;}
+#wrap .portfolio_swiper .swiper-wrapper .intro p {}
+#wrap .portfolio_swiper .swiper-wrapper .intro p img {}
+
+/* -------------------------------------------------------------------- 2. 프로필 */
+#wrap .portfolio_swiper .swiper-wrapper .profile {background-color: darkcyan;}
+#wrap .portfolio_swiper .swiper-wrapper .profile .title {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .title h1 {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .title::after {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left > p {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left > p img {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left .profile_info {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left .profile_info > * {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left .profile_info p {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left .profile_info address {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about h1 {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about h2 {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about h2 span {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about .tag {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about .tag dt {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about .tag dd {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .education {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .education p {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .education span {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right h1 {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li p {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li .gauge_bg {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li .gauge_bg .gauge_bar {}
+/* ------------------------------------------------------------------------------- 스킬 개별 선택자 - gauge_bar */
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .photoshop .gauge_bg .gauge_bar {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .illustrator .gauge_bg .gauge_bar {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .figma .gauge_bg .gauge_bar {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .cafe24 .gauge_bg .gauge_bar {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .html .gauge_bg .gauge_bar {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .css .gauge_bg .gauge_bar {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .javascript .gauge_bg .gauge_bar {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .git .gauge_bg .gauge_bar {}
+
+/* -------------------------------------------------------------------- 3. 목차 */
+#wrap .portfolio_swiper .swiper-wrapper .contents_index {background-color: darkolivegreen;}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .title {}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .title h1 {}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list {}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li {}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .num {}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .project_title {}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .project_title::before {} /* .num .project_title 사이 선 */
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .project_title h2 {}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .project_title .project_tag {}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .project_title .project_tag li {}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .project_title .project_tag li {}
+
+/* -------------------------------------------------------------------- 4. 올더뮤 */
+#wrap .portfolio_swiper .swiper-wrapper .oldernew {background-color: darkorange;}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .title {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .title h1 {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents {display: flex; align-items: flex-end; gap: 51px;}
+/* ------------------------------------- 프로젝트 정보 */
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .project_info {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .project_info p {} /* 공통 p */
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .project_info .info {margin-bottom: 30px;}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .project_info .info .tag {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .project_info .info .tag span {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .project_info .info .tag .data {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .project_info .info .tag .use_skill {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .project_info .description {}
+/* ------------------------------------- 프로젝트 미리보기 */
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .preview {display: flex;}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .preview .prototype_main {margin-right: 20px;}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .preview .prototype_main p {margin-bottom: 8px;}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .preview .prototype_main img {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .preview .prototype_detail {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .preview .prototype_detail p {margin-bottom: 8px;}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .preview .prototype_detail img {}
+/* --------------------------- 스크롤 힌트  */
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint img {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint img.mouse {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint img.arrow {}
+
+/* -------------------------------------------------------------------- 5. 올더뮤 목업 */
+#wrap .portfolio_swiper .swiper-wrapper .oldernew_mockup {background-color: darkkhaki;} /* bg */
+#wrap .portfolio_swiper .swiper-wrapper .oldernew_mockup .link_btn {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew_mockup .link_btn a {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew_mockup .link_btn a img {}
+/* ----------------------------------------------------- 개별 링크 버튼 */
+#wrap .portfolio_swiper .swiper-wrapper .oldernew_mockup .link_btn a.figma {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew_mockup .link_btn a.original {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew_mockup .link_btn a.git {}
+
+/* -------------------------------------------------------------------- 6. 성심당 */
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall {background-color: darkgoldenrod;}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .title {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .title h1 {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .contents {}
+/* ------------------------------------- 프로젝트 정보 */
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .contents .project_info {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .contents .project_info p {} /* 공통 p */
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .contents .project_info .info {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .contents .project_info .info .tag {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .contents .project_info .info .tag span {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .contents .project_info .info .tag .data {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .contents .project_info .info .tag .use_skill {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .contents .project_info .description {}
+/* ------------------------------------- 프로젝트 미리보기 */
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .contents .preview {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .contents .preview .prototype_main {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .contents .preview .prototype_main p {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .contents .preview .prototype_main img {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .contents .preview .prototype_detail {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .contents .preview .prototype_detail p {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .contents .preview .prototype_detail img {}
+/* --------------------------- 스크롤 힌트  */
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .scroll_hint {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .scroll_hint img {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .scroll_hint img.mouse {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall .scroll_hint img.arrow {}
+
+/* -------------------------------------------------------------------- 7. 성심당 목업 */
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall_mockup {background-color: darkgray;} /* bg */
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall_mockup .link_btn {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall_mockup .link_btn a {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall_mockup .link_btn a img {}
+/* ----------------------------------------------------- 개별 링크 버튼 */
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall_mockup .link_btn a.figma {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall_mockup .link_btn a.original {}
+#wrap .portfolio_swiper .swiper-wrapper .sungsimdangmall_mockup .link_btn a.git {}
+
+/* -------------------------------------------------------------------- 8. 그래픽 디자인 - 상세페이지 */
+#wrap .portfolio_swiper .swiper-wrapper .graphic_detail {background-color: darkslategray;}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_detail .title {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_detail .title h1 {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_detail .graphic_type {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_detail .contents {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_detail .contents .preview {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_detail .contents .preview a {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_detail .contents .preview a img {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_detail .contents .expansion {}/* bg */
+#wrap .portfolio_swiper .swiper-wrapper .graphic_detail .contents .expansion p {}
+
+/* -------------------------------------------------------------------- 9. 그래픽 디자인 - 배너 */
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr {background-color: dimgray;}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .title {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .title h1 {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .txt_box {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .txt_box .graphic_type {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .txt_box .abvice {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .contents {}
+/* ------------------------------------------------------- 세로 배너 */
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .contents .vertical_bnr {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .contents .vertical_bnr .swiper-wrapper {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .contents .vertical_bnr .swiper-wrapper .swiper-slide {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .contents .vertical_bnr .swiper-wrapper .swiper-slide a {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .contents .vertical_bnr .swiper-wrapper .swiper-slide a img {}
+/* ------------------------------------------------------- 가로 배너 */
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .contents .horizontal_bnr {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .contents .horizontal_bnr .swiper-wrapper {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .contents .horizontal_bnr .swiper-wrapper .swiper-slide {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .contents .horizontal_bnr .swiper-wrapper .swiper-slide a {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .contents .horizontal_bnr .swiper-wrapper .swiper-slide a img {}
+/* ------------------------------------- ------ 이미지를 클릭했을 때 뜨는 팝업  */
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .contents .popup_bg {}
+#wrap .portfolio_swiper .swiper-wrapper .graphic_bnr .contents .popup_bg .popup {}
+
+/* -------------------------------------------------------------------- 10. 아웃트로 */
+#wrap .portfolio_swiper .swiper-wrapper .outro {background-color: darkgreen;}
+#wrap .portfolio_swiper .swiper-wrapper .outro p {}
+#wrap .portfolio_swiper .swiper-wrapper .outro .email {}
