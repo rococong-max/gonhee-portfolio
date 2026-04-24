@@ -1,45 +1,62 @@
-#wrap {background-color: #222;}
+#wrap {background-color: #111;}
 #wrap .portfolio_swiper {height: 100vh;}
 #wrap .portfolio_swiper .swiper-wrapper {}
 #wrap .portfolio_swiper .swiper-wrapper .swiper-slide {}
 #wrap .portfolio_swiper .swiper-wrapper .swiper-slide * {color: #f5f5f5;}
 
 /* -------------------------------------------------------------------- 1. 인트로 */
-#wrap .portfolio_swiper .swiper-wrapper .intro {background-color: brown;}
+#wrap .portfolio_swiper .swiper-wrapper .intro {}
 #wrap .portfolio_swiper .swiper-wrapper .intro p {}
-#wrap .portfolio_swiper .swiper-wrapper .intro p img {}
+#wrap .portfolio_swiper .swiper-wrapper .intro p img {width: 100%;}
 
 /* -------------------------------------------------------------------- 2. 프로필 */
 #wrap .portfolio_swiper .swiper-wrapper .profile {background-color: darkcyan;}
 #wrap .portfolio_swiper .swiper-wrapper .profile .title {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .title h1 {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .title::after {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents {
+    display: flex; justify-content: space-around; align-items: center;
+    background-color: pink;
+}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left > p {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left > p img {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left .profile_info {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left .profile_info > * {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left > .photo {width: 240px; height: 300px; background-color: gray; margin-bottom: 32px;}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left > .photo img {width: 100%;}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left .profile_info {
+    padding: 18px 8px;
+    border-top: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left .profile_info > * {margin-bottom: 12px;}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left .profile_info:last-child {margin: 0;}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left .profile_info p {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left .profile_info address {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about {margin-bottom: 61px;}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about > * {margin-bottom: 30px;}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about:last-child {margin: 0;}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about h1 {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about h2,
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about h2 span {font-size: 1.06rem; line-height: 1.4;}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about h2 {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about h2 span {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about h2 span {color: #6FEDFB;}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about .tag {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about .tag dt {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about .tag dd {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .education {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .education h1 {margin-bottom: 30px;}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .education p {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .education span {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .education span {display: block;}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right h1 {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li p {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li .gauge_bg {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li .gauge_bg .gauge_bar {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li .gauge_bg {
+
+}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li .gauge_bg .gauge_bar {
+
+}
 /* ------------------------------------------------------------------------------- 스킬 개별 선택자 - gauge_bar */
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .photoshop .gauge_bg .gauge_bar {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .illustrator .gauge_bg .gauge_bar {}
