@@ -10,14 +10,14 @@
 #wrap .portfolio_swiper .swiper-wrapper .intro p img {width: 100%;}
 
 /* -------------------------------------------------------------------- 2. 프로필 */
-#wrap .portfolio_swiper .swiper-wrapper .profile {background-color: darkcyan;}
+#wrap .portfolio_swiper .swiper-wrapper .profile {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .title {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .title h1 {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .title::after {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents {
-    display: flex; justify-content: space-around; align-items: center;
-    background-color: pink;
+    display: flex; justify-content: space-between; align-items: center; height: calc(100% - 60px);
 }
+/* --------------------------------------------------- 왼쪽 영역 */
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left > .photo {width: 240px; height: 300px; background-color: gray; margin-bottom: 32px;}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left > .photo img {width: 100%;}
@@ -30,6 +30,7 @@
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left .profile_info:last-child {margin: 0;}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left .profile_info p {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_left .profile_info address {}
+/* --------------------------------------------------- 가운데 영역 */
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about {margin-bottom: 61px;}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about > * {margin-bottom: 30px;}
@@ -40,52 +41,54 @@
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about h2 {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about h2 span {color: #6FEDFB;}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about .tag {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about .tag dt {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about .tag dd {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about .tag dt {margin-bottom: 8px;}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .about .tag dd {margin-bottom: 18px;}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .education {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .education h1 {margin-bottom: 30px;}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .education p {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .education span {display: block;}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_middle .education span {display: block; margin-bottom: 6px;}
+/* --------------------------------------------------- 오른쪽 영역 */
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right h1 {}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li p {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li {margin-bottom: 20px; width: 600px;}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li p {margin-bottom: 12px;}
 #wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li .gauge_bg {
-
+    background: #888; height: 4px;
 }
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li .gauge_bg .gauge_bar {
-
-}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li .gauge_bg:last-child {margin: 0;}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list li .gauge_bg .gauge_bar {height: 100%; background: #6FEDFB;}
 /* ------------------------------------------------------------------------------- 스킬 개별 선택자 - gauge_bar */
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .photoshop .gauge_bg .gauge_bar {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .illustrator .gauge_bg .gauge_bar {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .figma .gauge_bg .gauge_bar {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .cafe24 .gauge_bg .gauge_bar {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .html .gauge_bg .gauge_bar {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .css .gauge_bg .gauge_bar {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .javascript .gauge_bg .gauge_bar {}
-#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .git .gauge_bg .gauge_bar {}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .photoshop .gauge_bg .gauge_bar {width: 65%;}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .illustrator .gauge_bg .gauge_bar {width: 50%;}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .figma .gauge_bg .gauge_bar {width: 80%;}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .cafe24 .gauge_bg .gauge_bar {width: 40%;}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .html .gauge_bg .gauge_bar {width: 80%;}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .css .gauge_bg .gauge_bar {width: 65%;}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .javascript .gauge_bg .gauge_bar {width: 55%;}
+#wrap .portfolio_swiper .swiper-wrapper .profile .contents .p_right .skill_list .git .gauge_bg .gauge_bar {width: 55%;}
 
 /* -------------------------------------------------------------------- 3. 목차 */
-#wrap .portfolio_swiper .swiper-wrapper .contents_index {background-color: darkolivegreen;}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index {display: flex; flex-flow: column nowrap; justify-content: space-between;}
 #wrap .portfolio_swiper .swiper-wrapper .contents_index .title {}
 #wrap .portfolio_swiper .swiper-wrapper .contents_index .title h1 {}
-#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list {}
-#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li {}
-#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .num {}
-#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .project_title {}
-#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .project_title::before {} /* .num .project_title 사이 선 */
-#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .project_title h2 {}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list {display: flex; justify-content: space-between;}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li {display: flex;}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .num {font-size: 9.38rem; padding-right: 16px;}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .project_title {border-left: 1px solid #f5f5f5; padding-left: 16px;}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .project_title h2 {
+    font-family: 'KblJumpExtended',sans-serif; font-size: 1.75rem;
+    letter-spacing: 0.02rem; margin-bottom: 26px;
+}
 #wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .project_title .project_tag {}
-#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .project_title .project_tag li {}
-#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .project_title .project_tag li {}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .project_title .project_tag li {margin-bottom: 6px;}
+#wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .project_title .project_tag li:last-child {margin: 0;}
 
 /* -------------------------------------------------------------------- 4. 올더뮤 */
 #wrap .portfolio_swiper .swiper-wrapper .oldernew {background-color: darkorange;}
 #wrap .portfolio_swiper .swiper-wrapper .oldernew .title {}
 #wrap .portfolio_swiper .swiper-wrapper .oldernew .title h1 {}
-#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents {display: flex; align-items: flex-end; gap: 51px;}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .contents {display: flex; align-items: flex-end; gap: 51px; margin-bottom: 60px;}
 /* ------------------------------------- 프로젝트 정보 */
 #wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .project_info {}
 #wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .project_info p {} /* 공통 p */
@@ -104,15 +107,18 @@
 #wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .preview .prototype_detail p {margin-bottom: 8px;}
 #wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .preview .prototype_detail img {}
 /* --------------------------- 스크롤 힌트  */
-#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint {}
-#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint img {}
-#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint img.mouse {}
-#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint img.arrow {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint {display: flex; flex-flow: column nowrap; width: max-content; margin: 0 auto;}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint img {width: 28px;}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint img.mouse {margin-bottom: 12px;}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint img.down {}
 
 /* -------------------------------------------------------------------- 5. 올더뮤 목업 */
-#wrap .portfolio_swiper .swiper-wrapper .oldernew_mockup {background-color: darkkhaki;} /* bg */
-#wrap .portfolio_swiper .swiper-wrapper .oldernew_mockup .link_btn {}
-#wrap .portfolio_swiper .swiper-wrapper .oldernew_mockup .link_btn a {}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew_mockup {background-image: url(../images/redesign/oldernew_mockup.jpg);} /* bg */
+#wrap .portfolio_swiper .swiper-wrapper .oldernew_mockup .link_btn {float: right; text-align: right;}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew_mockup .link_btn a {
+    display: block; width: max-content; margin-bottom: 12px;
+    background: #111; padding: 4px; 
+}
 #wrap .portfolio_swiper .swiper-wrapper .oldernew_mockup .link_btn a img {}
 /* ----------------------------------------------------- 개별 링크 버튼 */
 #wrap .portfolio_swiper .swiper-wrapper .oldernew_mockup .link_btn a.figma {}
