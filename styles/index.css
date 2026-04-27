@@ -85,7 +85,7 @@
 #wrap .portfolio_swiper .swiper-wrapper .contents_index .contents_list li .project_title .project_tag li:last-child {margin: 0;}
 
 /* -------------------------------------------------------------------- 4. 올더뮤 */
-#wrap .portfolio_swiper .swiper-wrapper .oldernew {background-color: darkorange;}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew {position: relative;}
 #wrap .portfolio_swiper .swiper-wrapper .oldernew .title {}
 #wrap .portfolio_swiper .swiper-wrapper .oldernew .title h1 {}
 #wrap .portfolio_swiper .swiper-wrapper .oldernew .contents {display: flex; align-items: flex-end; gap: 51px; margin-bottom: 60px;}
@@ -107,9 +107,12 @@
 #wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .preview .prototype_detail p {margin-bottom: 8px;}
 #wrap .portfolio_swiper .swiper-wrapper .oldernew .contents .preview .prototype_detail img {}
 /* --------------------------- 스크롤 힌트  */
-#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint {display: flex; flex-flow: column nowrap; width: max-content; margin: 0 auto;}
-#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint img {width: 28px;}
-#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint img.mouse {margin-bottom: 12px;}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint {
+    display: flex; flex-flow: column nowrap; width: max-content; margin: 0 auto;
+    position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);
+}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint img {width: 22px;}
+#wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint img.mouse {margin-bottom: 10px;}
 #wrap .portfolio_swiper .swiper-wrapper .oldernew .scroll_hint img.down {}
 
 /* -------------------------------------------------------------------- 5. 올더뮤 목업 */

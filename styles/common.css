@@ -1,7 +1,7 @@
 /* 공통 디자인 */
 
 /* ------------------------ 슬라이드 공통 크기 */
-#wrap .portfolio_swiper .swiper-wrapper .swiper-slide {padding: 60px 80px; /* width: 1760px; margin: 0 auto; */}
+#wrap .portfolio_swiper .swiper-wrapper .swiper-slide {padding: 80px 80px; /* width: 1760px; margin: 0 auto; */}
 
 /* -------------------- 제목 + 제목 옆 라인 디자인 */
 #wrap .portfolio_swiper .swiper-wrapper .swiper-slide .title {display: flex; gap: 40px; align-items: center; margin-bottom: 40px;}
