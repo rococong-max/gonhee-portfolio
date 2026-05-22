@@ -1,14 +1,48 @@
+/* 인트로 */
 #wrap #intro {height: 100vh;}
 #wrap #intro .contents {
     display: flex; flex-flow: column nowrap; 
     justify-content: center; align-items: center; height: 100%;
 }
 #wrap #intro .contents h1 {
-    width: 790px; height: 252px; text-align: center;
+    width: 794px; height: 252px; text-align: center;
     font-family: 'Instrument Serif','serif'; font-size: 11.25rem;
-    background-image: url(../images/common/hightlight.png);
+    background-image: url(../images/common/highlight.png);
     background-position: center; background-size: cover;
 }
 #wrap #intro .contents p {}
-#wrap #intro .contents p:nth-child(2) {font-size: 1.88rem; font-weight: 300; margin: 38px 0 100px;}
+#wrap #intro .contents p:nth-child(2) {font-size: 1.88rem; font-weight: 300; margin: 0 0 100px;}
 #wrap #intro .contents p:last-child {font-size: 1.63rem;}
+/* 프로필 */
+#wrap #profile {}
+#wrap #profile .contents {
+    display: flex; justify-content: center; gap: 70px;
+}
+#wrap #profile .contents .p_left {}
+#wrap #profile .contents .p_left .photo {border: 1px #ff0 solid;}
+#wrap #profile .contents .p_left .photo {}
+#wrap #profile .contents .p_left .photo img {}
+#wrap #profile .contents .p_left .info {}
+#wrap #profile .contents .p_left .info li {}
+#wrap #profile .contents .p_left .info li img {}
+#wrap #profile .contents .p_middle {}
+#wrap #profile .contents .p_middle .h1 {}
+#wrap #profile .contents .p_middle .aspiration {}
+#wrap #profile .contents .p_middle .tag_me {}
+#wrap #profile .contents .p_middle .tag_me dt {}
+#wrap #profile .contents .p_middle .tag_me dd {}
+#wrap #profile .contents .p_right {}
+#wrap #profile .contents .p_right .education {}
+#wrap #profile .contents .p_right .education .edu_title {}
+#wrap #profile .contents .p_right .education .edu_title img {}
+#wrap #profile .contents .p_right .education .data {}
+#wrap #profile .contents .p_right .education .edu {}
+#wrap #profile .contents .p_right .skills {}
+#wrap #profile .contents .p_right .skills .skill_title {}
+#wrap #profile .contents .p_right .skills .skill_title img {}
+#wrap #profile .contents .p_right .skills .skill_list {}
+#wrap #profile .contents .p_right .skills .skill_list li {}
+#wrap #profile .contents .p_right .skills .skill_list li img {}
+#wrap #profile .contents .p_right .skills .skill_list li span {}
+#wrap #profile .contents .p_right .skills .skill_list li span.skill_name {}
+#wrap #profile .contents .p_right .skills .skill_list li span.skill_info {}
