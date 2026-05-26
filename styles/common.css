@@ -1,3 +1,37 @@
-/* 공통 디자인 */
-#wrap {min-width: 1400px;}
+/* 
+    * GitHub Repository Phishing Alert Appeal & Project Verification
+    이 페이지는 깃허브에서 발생한 피싱 경고 오탐지(False Positive)를 해명하고, 해당 코드가 순수한 학습 및 포트폴리오용임을 증명하기 위해 작성되었습니다.
+    This CSS is part of a student project. 
+    Any resemblance to real-world commercial sites is purely for design practice.
+*/
+/* 공통 디자인 common.css*/
+#wrap {min-width: 1400px; background: #F8F8F8;}
 #wrap section {height: 100vh;}
+
+/* 선택 박스 모서리 디자인 */
+/* 왼쪽 위, 아래 모서리 */
+#wrap #profile .contents div .container_box::before,
+#wrap #profile .contents div .container_box p::before {
+    content: ''; width: 14px; height: 14px; background: #86CAFF; position: absolute;
+}
+#wrap #profile .contents div .container_box::before {top: -7px; left: -7px;}
+#wrap #profile .contents div .container_box p::before {bottom: -7px; left: -7px;}
+/* 오른쪽 위, 아래 모서리 */
+#wrap #profile .contents div .container_box::after,
+#wrap #profile .contents div .container_box p::after {
+    content: ''; width: 14px; height: 14px; background: #86CAFF; position: absolute;
+}
+#wrap #profile .contents div .container_box::after {top: -7px; right: -7px;}
+#wrap #profile .contents div .container_box p::after {bottom: -7px; right: -7px;}
+
+/* edu,skill title */
+#wrap #profile .contents .p_right .education .edu_title,
+#wrap #profile .contents .p_right .skills .skill_title {
+    border: #ddd solid 1px; border-radius: 22px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 20%);
+    width: max-content; padding: 10px 32px; margin-bottom: 20px;
+}
+#wrap #profile .contents .p_right .education .edu_title span,
+#wrap #profile .contents .p_right .skills .skill_title span {display:inline-block; margin-left: 12px; transform: translateY(-3px);}
+#wrap #profile .contents .p_right .education .edu_content,
+#wrap #profile .contents .p_right .skills .skill_list {padding: 0 20px;}

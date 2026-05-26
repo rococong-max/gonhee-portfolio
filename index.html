@@ -1,3 +1,10 @@
+<!--
+    * GitHub Repository Phishing Alert Appeal & Project Verification
+    이 페이지는 깃허브에서 발생한 피싱 경고 오탐지(False Positive)를 해명하고, 해당 코드가 순수한 학습 및 포트폴리오용임을 증명하기 위해 작성되었습니다.
+    * Project: Portfolio Prototype
+    * Warning: This html does not process actual transactions or user credentials.
+The similarity to the actual commercial site is purely for design practice.
+-->
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -22,37 +29,46 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- 개별 사용자 디자인 파일 연결 -->
     <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/font.css">
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/index.css">
     <script src="./scripts/index.js" defer></script>
 </head>
 <body>
     <div id="wrap">
+        <!-- 1. 인트로  -->
         <section id="intro">
             <div class="contents">
-                <h1>portfolio</h1>
+                <h1>
+                    <span class="left_dot"></span>
+                    portfolio
+                    <span class="right_dot"></span>
+                </h1>
                 <p>web designer&publisher</p>
                 <p>눈에 머무는 즐거움이 손끝의 편안함으로 이어지는 순간을 디자인합니다.</p>
             </div>
         </section>
+        <!-- 2. 프로필 -->
         <section id="profile">
             <div class="contents">
                 <div class="p_left">
-                    <div class="photo_wrap">
+                    <div class="photo_wrap container_box">
                         <p class="photo"><img src="./images/common/profile.jpg" alt="프로필 사진"></p>
                     </div>
                     <ul class="info">
                         <li class="name">표곤희 | PYO GonHee</li>
                         <li class="birth_date">2003.11.04</li>
-                        <li class="birth_date"><img src="" alt="">010-6292-7521</li>
-                        <li class="birth_date"><img src="" alt="">rococong@gmail.com</li>
+                        <li class="phone_num"><img src="./images/common/Phone.png" alt="">010-6292-7521</li>
+                        <li class="email"><img src="./images/common/Email.png" alt="">rococong@gmail.com</li>
                     </ul>
                 </div>
                 <div class="p_middle">
-                    <h1>about me</h1>
-                    <div class="aspiration_wrap">
-                        <p class="aspiration">
+                    <h1>
+                        <span class="left_dot"></span>
+                        about me
+                    <span class="right_dot"></span>
+                    </h1>
+                    <div class="message_wrap container_box">
+                        <p class="message">
                         사용자의 시선이 머무는 곳엔 감각을 채우고,<br>
                         손길이 닿는 곳엔 기술적 디테일을 채웁니다.<br>
                         서비스가 사용자의 일상 속에 자연스럽게 스며들도록<br>
@@ -70,66 +86,89 @@
                 </div>
                 <div class="p_right">
                     <div class="education">
-                        <h2 class="edu_title"><img src="" alt="">Education</h2>
-                        <p class="date">25.12.27 ~ 26.05.18</p>
-                        <p class="edu">그린컴퓨터아카데미 | UI/UX 반응형 웹디자인&웹퍼블리셔 양성과정 수료</p>
+                        <h2 class="edu_title"><img src="./images/common/education.png" alt=""><span>Education</span></h2>
+                        <div class="edu_content">
+                            <p class="date">25.12.27 ~ 26.05.18</p>
+                            <p class="edu">그린컴퓨터아카데미 | UI/UX 반응형 웹디자인&웹퍼블리셔 양성과정 수료</p>
+                        </div>
                     </div>
                     <div class="skills">
-                        <h2 class="skill_title"><img src="" alt="">Skills</h2>
+                        <h2 class="skill_title"><img src="./images/common/skill.png" alt=""><span>Skills</span></h2>
                         <ul class="skill_list">
                             <li class="photoshop">
                                 <img src="./images/common/psd.png" alt="">
-                                <span class="skill_name">photoshop</span>
-                                <span class="skill_info">배너, 상세페이지, 썸네일 등 다양한 디지털 디자인 작업 가능</span>
+                                <dl>
+                                    <dt class="skill_name">photoshop</dt>
+                                    <dd class="skill_info">배너, 상세페이지, 썸네일 등 다양한 디지털 디자인 작업 가능</dd>
+                                </dl>
                             </li>
                             <li class="illustrator">
                                 <img src="./images/common/ai.png" alt="">
-                                <span class="skill_name">illustrator</span>
-                                <span class="skill_info">로고·아이콘·벡터 그래픽 제작 가능</span>
+                                <dl>
+                                    <dt class="skill_name">illustrator</dt>
+                                    <dd class="skill_info">로고·아이콘·벡터 그래픽 제작 가능</dd>
+                                </dl>
                             </li>
                             <li class="procreate">
                                 <img src="./images/common/procreate.png" alt="">
-                                <span class="skill_name">procreate</span>
-                                <span class="skill_info">캐릭터 중심의 드로잉 및 디지털 일러스트 작업 가능, 움직임이 있는 간단한 모션 표현 및 이모티콘 제작 가능</span>
+                                <dl>
+                                    <dt class="skill_name">procreate</dt>
+                                    <dd class="skill_info">캐릭터 중심의 드로잉 및 디지털 일러스트 작업 가능, 움직임이 있는 간단한 모션 표현 및 이모티콘 제작 가능</dd>
+                                </dl>
                             </li>
                             <li class="figma">
                                 <img src="./images/common/figma.png" alt="">
-                                <span class="skill_name">figma</span>
-                                <span class="skill_info">UI/UX 기반 와이어프레임 및 프로토타입 제작 가능, 컴포넌트 및 오토레이아웃 활용 가능</span>
+                                <dl>
+                                    <dt class="skill_name">figma</dt>
+                                    <dd class="skill_info">UI/UX 기반 와이어프레임 및 프로토타입 제작 가능, 컴포넌트 및 오토레이아웃 활용 가능</dd>
+                                </dl>
                             </li>
                             <li class="HTML">
                                 <img src="./images/common/html.png" alt="">
-                                <span class="skill_name">HTML</span>
-                                <span class="skill_info">웹 표준 기반의 시맨틱 마크업 작성 가능, 구조적인 웹 페이지 제작 가능</span>
+                                <dl>
+                                    <dt class="skill_name">HTML</dt>
+                                    <dd class="skill_info">웹 표준 기반의 시맨틱 마크업 작성 가능, 구조적인 웹 페이지 제작 가능</dd>
+                                </dl>
                             </li>
                             <li class="CSS">
                                 <img src="./images/common/css.png" alt="">
-                                <span class="skill_name">CSS</span>
-                                <span class="skill_info">반응형 웹 및 다양한 레이아웃 구현 가능</span>
+                                <dl>
+                                    <dt class="skill_name">CSS</dt>
+                                    <dd class="skill_info">반응형 웹 및 다양한 레이아웃 구현 가능</dd>
+                                </dl>
                             </li>
                             <li class="JavaScript">
                                 <img src="./images/common/js.png" alt="">
-                                <span class="skill_name">JavaScript</span>
-                                <span class="skill_info">기본적인 인터랙션 및 동적 기능 구현 가능, 이벤트 제어 및 DOM 조작 가능</span>
+                                <dl>
+                                    <dt class="skill_name">JavaScript</dt>
+                                    <dd class="skill_info">기본적인 인터랙션 및 동적 기능 구현 가능, 이벤트 제어 및 DOM 조작 가능</dd>
+                                </dl>
                             </li>
                             <li class="jQuery">
                                 <img src="./images/common/jquery.png" alt="">
-                                <span class="skill_name">jQuery</span>
-                                <span class="skill_info">플러그인 활용 및 간단한 효과 적용 가능</span>
+                                <dl>
+                                    <dt class="skill_name">jQuery</dt>
+                                    <dd class="skill_info">플러그인 활용 및 간단한 효과 적용 가능</dd>
+                                </dl>
                             </li>
                             <li class="git">
-                                <img src="" alt="">
-                                <span class="skill_name">git / gitHub</span>
-                                <span class="skill_info">git 다양한 명령어를 활용한 gitHub 호스팅 관련 작업 폴더 관리 능력 보유</span>
+                                <img src="./images/common/github.png" alt="">
+                                <dl>
+                                    <dt class="skill_name">git / gitHub</dt>
+                                    <dd class="skill_info">git 다양한 명령어를 활용한 gitHub 호스팅 관련 작업 폴더 관리 능력 보유</dd>
+                                </dl>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- 3. 목차 -->
         <section id="index">
             <div class="contents">
-                <h1 class="index">index</h1>
+                <div class="title_wrap rotate_box">
+                    <h1>index</h1>
+                </div>
                 <ul class="list">
                     <li><a href="#"><img src="" alt="">웹 사이트 프로젝트<br>리디자인 oldernew</a></li>
                     <li><a href="#"><img src="" alt="">웹 사이트 프로젝트<br>리디자인 sungsimdangmall</a></li>
@@ -138,11 +177,15 @@
                 </ul>
             </div>
         </section>
+        <!-- 4. 올더뮤 프로젝트 -->
         <section id="oldernew">
             
         </section>
+        <!-- 5. 성심당몰 프로젝트 -->
         <section id="sungsimdangmall"></section>
+        <!-- 6. 그래픽 디자인 -->
         <section id="graphic_design"></section>
+        <!-- 7. 캐릭터 디자인 -->
         <section id="character_design"></section>
     </div>
 </body>
